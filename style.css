@@ -1,0 +1,90 @@
+
+  *{
+    margin: 0%;
+    padding: 0%;
+  
+  }
+  .main{
+    width: 100%;
+    height: auto;
+  }
+  .navbar{
+    width: 20px;
+    height: auto;
+    margin-left: 48%;
+  }
+  img{
+    width: 100px;
+    height: auto;
+  }
+  .na{
+    margin-left: 0.1%;
+    background: linear-gradient(to top,rgb(48, 48, 140),rgb(255, 19, 6));
+    position: absolute;
+    font-family: uppercase;
+    font-size: 40px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .po{
+    padding-top: 5px;
+    padding-left: 50px;
+    background: linear-gradient(to top,rgb(48, 48, 140),rgb(255, 19, 6));
+    position: absolute;
+    font-family: uppercase;
+    font-size: 30px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  
+  }
+  .form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top,rgb(134, 241, 230),rgb(206, 213, 203));
+    position: absolute;
+    border-radius: 10px;
+    top: 200px;
+    left: 520px;
+    padding: 25px;
+    border: 2px dashed black;
+  }
+  .naga{
+    margin-top: 30%;
+    padding: 10px;
+  }
+ .form input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid orangered;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+ }
+ .form input:focus{
+  outline: none;
+ }
+ ::placeholder{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+ .btn{
+  width: 240px;
+  height: 40px;
+  background: rgb(198, 87, 185);
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+ }
+ .btn:hover{
+  background: white;
+  color: orange;
+ }
